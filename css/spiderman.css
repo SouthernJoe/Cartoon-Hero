@@ -1,0 +1,60 @@
+body{
+	background-color: firebrick;
+	margin: 0;
+	font-family: 'Oswald', sans-serif;
+	color: darkblue;	
+}
+header{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 25px;
+	padding-top: 25px;
+	background-color: white;
+	font-size: 35px;
+}
+	
+header img{
+	border-radius: 150px;
+	width: 300px;
+	border:10px solid darkblue;
+}
+main{
+	background-color: white;
+	line-height: 40px;
+	max-width: 800px;
+	margin-left: auto;
+  	margin-right: auto;
+  	display: block;
+  	padding-bottom: 0px;
+  	padding-top: 0px;
+  	padding-left: 10px;
+  	padding-right: 10px;
+}
+main a:hover{
+	background-color:firebrick;
+}
+
+main img{
+	max-width: 100%
+}
+footer{
+	background-color: white;
+	padding: 50px;
+	margin: 0;
+	text-align: center;
+	font-size: 20px;
+}
+footer a{
+	color: darkblue;
+}
+
+footer a:hover{
+	background-color:transparent;
+	opacity: .5;
+}
+sub{
+	color: grey;
+	font-style: italic;
+	margin-top: 0px;
+}
